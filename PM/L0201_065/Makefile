@@ -25,7 +25,7 @@ run: $(TARGET)
 
 #очистка от мусора
 clean:
-	-del /Q $(OBJS) $(TARGET)
+	-rm -f $(OBJS) $(TARGET)
 
 #защита от совпадения имен
 .PHONY: all run clean
